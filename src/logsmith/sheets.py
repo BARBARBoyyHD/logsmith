@@ -24,7 +24,7 @@ def get_worksheet():
     cfg = _config()
     creds = Credentials.from_service_account_file(cfg["SERVICE_ACCOUNT_KEY_PATH"], scopes=SCOPE)
     client = gspread.authorize(creds)
-    sheet = client.open_by_key(CONFIG["SHEET_ID"])
+    sheet = client.open_by_key(cfg["SHEET_ID"])
     month_label = datetime.now().strftime("%b %y")
     try:
         ws = sheet.worksheet(month_label)
