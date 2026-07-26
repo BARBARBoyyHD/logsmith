@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logsmith"
+version = "0.1.0"
+description = "Universal Career Work Documentation — log work to Google Sheets + markdown"
+readme = "README.md"
+license = { text = "MIT" }
+keywords = ["career", "work-log", "google-sheets", "career-portfolio", "documentation"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.11"
+dependencies = [
+    "gspread>=6.0",
+    "google-auth>=2.0",
+    "google-auth-oauthlib>=1.0",
+    "google-auth-httplib2>=0.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/BARBARBoyyHD/logsmith"
+Repository = "https://github.com/BARBARBoyyHD/logsmith"
+Documentation = "https://github.com/BARBARBoyyHD/logsmith#readme"
+
+[project.scripts]
+logsmith = "logsmith.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
