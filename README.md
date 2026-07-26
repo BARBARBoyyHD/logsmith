@@ -1,13 +1,12 @@
 ```
-                         __
-                        / _)  WELCOME TO
- .-------.___________ _/ /
-|] ___ ___ ___ ___ _/_/__  ___
-| | . | . | . | . | '__/ _ \ _|  LOGSMITH
-|_|_  |___|___|_  |_| \___/ _/
-  |___|       |___|     \___/
+██╗      ██████╗  ██████╗ ███████╗███╗   ███╗██╗████████╗██╗  ██╗
+██║     ██╔═══██╗██╔════╝ ██╔════╝████╗ ████║██║╚══██╔══╝██║  ██║
+██║     ██║   ██║██║  ███╗███████╗██╔████╔██║██║   ██║   ███████║
+██║     ██║   ██║██║   ██║╚════██║██║╚██╔╝██║██║   ██║   ██╔══██║
+███████╗╚██████╔╝╚██████╔╝███████║██║ ╚═╝ ██║██║   ██║   ██║  ██║
+╚══════╝ ╚═════╝  ╚═════╝ ╚══════╝╚═╝     ╚═╝╚═╝   ╚═╝   ╚═╝  ╚═╝
 
-  ⚒  Universal Career Work Documentation  ⚒
+             ⚒ Forge Your Work History ⚒
 ```
 
 **Logsmith** is a universal career work documentation system. It logs your achievements, blockers, learning, and todos to **Google Sheets** while simultaneously creating organized **markdown files** in `docs/projects/`.
