@@ -30,10 +30,10 @@ Works with any AI coding agent (opencode, Claude Code, Cursor, etc.).
 ## Installation
 
 ```bash
-pip install logsmith
+pip install git+https://github.com/BARBARBoyyHD/logsmith.git
 ```
 
-Or install from source:
+Or clone for development:
 
 ```bash
 git clone https://github.com/BARBARBoyyHD/logsmith.git
