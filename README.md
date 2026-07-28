@@ -40,9 +40,21 @@ cd logsmith
 pip install -e .
 ```
 
+### Updating
+
+```bash
+cd logsmith           # or wherever you cloned it
+git pull
+# pip install -e .    # only needed if dependencies changed
+```
+
+When installed with `-e` (editable), pip links directly to your repo.
+A `git pull` immediately updates the CLI — no reinstall needed unless
+new dependencies were added.
+
 ### Dependencies
 
-- Python 3.11+
+- Python 3.10+
 - Google Cloud project with [Sheets API enabled](https://console.cloud.google.com/apis/library/sheets.googleapis.com)
 - A Google Sheet to log into
 
